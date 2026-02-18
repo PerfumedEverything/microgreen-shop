@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/1d780_next_dist_compiled_b94d5e04._.js",
+  "static/chunks/1d780_next_dist_shared_lib_a124f067._.js",
+  "static/chunks/1d780_next_dist_client_a2ded615._.js",
+  "static/chunks/1d780_next_dist_3e60e568._.js",
+  "static/chunks/1d780_next_error_8735f4ad.js",
+  "static/chunks/[next]_entry_page-loader_ts_af9cc7d7._.js",
+  "static/chunks/1d780_react-dom_20037ea0._.js",
+  "static/chunks/1d780_0411afa2._.js",
+  "static/chunks/[root-of-the-server]__86cad8f5._.js",
+  "static/chunks/Desktop_test-project_microgreen-shop_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Desktop_test-project_microgreen-shop_pages__error_47465d28._.js"
+])
