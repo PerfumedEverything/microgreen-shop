@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Микрозелень гороха",
+    "price": 350,
+    "weight": "50 г",
+    "description": "Нежный вкус, богата белком и витаминами",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
+    "category": "legumes",
+    "isBestseller": true,
+    "stock": 50,
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Микрозелень подсолнуха",
+    "price": 380,
+    "weight": "50 г",
+    "description": "Сочная, с легким ореховым привкусом",
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80",
+    "category": "seeds",
+    "stock": 45,
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "Микрозелень редиса",
+    "price": 320,
+    "weight": "50 г",
+    "description": "Острая, пикантная, идеальна для салатов",
+    "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=600&q=80",
+    "category": "vegetables",
+    "isNew": true,
+    "stock": 30,
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "Микрозелень брокколи",
+    "price": 420,
+    "weight": "50 г",
+    "description": "Мягкий вкус, максимум пользы",
+    "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80",
+    "category": "vegetables",
+    "isBestseller": true,
+    "stock": 40,
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Микрозелень рукколы",
+    "price": 360,
+    "weight": "50 г",
+    "description": "Перечный аромат, отлично для пиццы",
+    "image": "https://images.unsplash.com/photo-1603618090554-11bfb6b1a1ef?w=600&q=80",
+    "category": "vegetables",
+    "stock": 35,
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "name": "Микрозелень свеклы",
+    "price": 340,
+    "weight": "50 г",
+    "description": "Сладковатая, красивый бордовый цвет",
+    "image": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=600&q=80",
+    "category": "vegetables",
+    "isNew": true,
+    "stock": 25,
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "name": "Микрозелень базилика",
+    "price": 450,
+    "weight": "30 г",
+    "description": "Ароматная, идеальна для итальянских блюд",
+    "image": "https://images.unsplash.com/photo-1618375569909-3c8616cf7733?w=600&q=80",
+    "category": "herbs",
+    "isBestseller": true,
+    "stock": 55,
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "name": "Микрозелень кинзы",
+    "price": 330,
+    "weight": "50 г",
+    "description": "Свежий аромат, прекрасна для азиатской кухни",
+    "image": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=600&q=80",
+    "category": "herbs",
+    "stock": 48,
+    "isActive": true
+  },
+  {
+    "id": 9,
+    "name": "Микрозелень щавеля",
+    "price": 310,
+    "weight": "50 г",
+    "description": "Кисловатый вкус, богат витамином С",
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80",
+    "category": "vegetables",
+    "stock": 20,
+    "isActive": true
+  },
+  {
+    "id": 10,
+    "name": "Микрозелень мяты",
+    "price": 400,
+    "weight": "30 г",
+    "description": "Освежающий аромат, для напитков и десертов",
+    "image": "https://images.unsplash.com/photo-1618375569909-3c8616cf7733?w=600&q=80",
+    "category": "herbs",
+    "isNew": true,
+    "stock": 42,
+    "isActive": true
+  },
+  {
+    "id": 11,
+    "name": "Микрозелень лука",
+    "price": 290,
+    "weight": "50 г",
+    "description": "Нежный луковый вкус, для салатов и супов",
+    "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=600&q=80",
+    "category": "vegetables",
+    "stock": 60,
+    "isActive": true
+  },
+  {
+    "id": 12,
+    "name": "Микрозелень капусты",
+    "price": 280,
+    "weight": "50 г",
+    "description": "Нежная, слегка сладковатая",
+    "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80",
+    "category": "vegetables",
+    "stock": 38,
+    "isActive": true
+  }
+]
