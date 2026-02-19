@@ -47,16 +47,14 @@ export {
 export function createAdminSupabaseClient() {
   const { createClient } = require("@supabase/supabase-js");
 
-  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co';
 
-  if (!supabaseServiceKey) {
-    throw new Error(
-      "SUPABASE_SERVICE_ROLE_KEY is required for admin operations",
-    );
+  if (!supabaseServiceKey || supabaseServiceKey === '') {
+    console.warn('SUPABASE_SERVICE_ROLE_KEY not set, admin operations will fail');
   }
 
-  return createClient(supabaseUrl, supabaseServiceKey, {
+  return createClient(supabaseUrl, supabaseServiceKey || 'placeholder-key', {
     auth: {
       autoRefreshToken: false,
       persistSession: false,
