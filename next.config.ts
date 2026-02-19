@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Static export for Netlify
-  output: 'export',
+  // Netlify supports SSR
+  // output: 'export', // Removed - using SSR for API routes
   
   // Dist directory for build output
-  distDir: "dist",
+  distDir: ".next",
 
   // Image optimization
   images: {
