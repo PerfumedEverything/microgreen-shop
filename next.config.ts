@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Netlify supports SSR, so we don't need static export
-  // output: 'export', // Only for GitFlic Pages or other static hosts
-
+  // Static export for Netlify
+  output: 'export',
+  
   // Dist directory for build output
-  distDir: ".next", // Default Next.js output directory
+  distDir: "dist",
 
   // Image optimization
   images: {

@@ -2,15 +2,11 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
-  # Directory to publish after build
-  publish = ".next"
+  # Directory to publish after build (static export)
+  publish = "dist"
 
   # Build command
   command = "npm run build"
-
-# Plugins
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
 
 # Environment variables (set these in Netlify UI)
 # Required:
