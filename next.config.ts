@@ -6,6 +6,26 @@ const nextConfig: NextConfig = {
   
   // Dist directory for build output
   distDir: ".next",
+  
+  // Production optimizations
+  poweredByHeader: false,
+  reactStrictMode: true,
+  
+  // Images
+  images: {
+    unoptimized: true, // Disable optimization for faster builds
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  },
+  
+  // Experimental features
+  experimental: {
+    optimizePackageImports: ['framer-motion', 'lucide-react'],
+  },
 
   // Image optimization
   images: {
