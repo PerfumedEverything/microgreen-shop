@@ -497,9 +497,9 @@ export default function CatalogPage() {
     <div className="min-h-screen bg-[#fafaf9] pt-[72px]">
       {/* Header */}
       <div className="bg-white border-b border-border sticky top-[72px] z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           {/* Breadcrumbs */}
-          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
+          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
             <Link href="/" className="hover:text-[#16a34a] transition-colors cursor-pointer">Главная</Link>
             <span>/</span>
             <span className="text-foreground">Каталог</span>

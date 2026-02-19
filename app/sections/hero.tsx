@@ -84,7 +84,7 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen pt-[72px] overflow-hidden bg-gradient-to-br from-[#fafaf9] via-[#fafaf9] to-[#dcfce7]">
+    <section className="relative h-screen overflow-hidden bg-gradient-to-br from-[#fafaf9] via-[#fafaf9] to-[#dcfce7]">
       {/* Animated Floating Geometric Shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <FloatingShape
@@ -129,8 +129,8 @@ export function HeroSection() {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-[calc(100vh-200px)]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center relative z-10 pt-[72px]">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -253,11 +253,11 @@ export function HeroSection() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80"
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80"
                 alt="Свежая микрозелень в деревянном ящике"
-                width={600}
-                height={500}
-                className="w-full h-auto object-cover"
+                width={500}
+                height={400}
+                className="w-full max-w-[500px] h-auto object-cover"
                 priority
               />
             </motion.div>
